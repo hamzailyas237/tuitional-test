@@ -1,0 +1,39 @@
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .image {
+    min-width: 100%;
+    height: auto;
+   }
+  
+  .formContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .sectionContainer {
+      display: block;
+    }
+    .image {
+        min-width: 80%;
+        height: auto;
+       }
+  }
